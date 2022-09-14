@@ -12,11 +12,6 @@ class GQ_3DSHOOTING_API AACTargetActor : public AActor
 	GENERATED_BODY()
 public:
 	bool TargetFlag = false;
-
-// テスト変数（イント）
-UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-	int TestNum;
-
 	// ヒット後のマテリアル
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
 		UMaterialInterface* HitMID;
