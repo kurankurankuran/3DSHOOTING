@@ -15,12 +15,10 @@ public:
 
 // テスト変数（イント）
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-	int HitMID;
-
+	int TestNum;
 // テスト用変数
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-	bool Test = false;
-	
+	bool TestFlag = false;
 	// ヒット後のマテリアル
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
 		UMaterialInterface* HitMID;
