@@ -13,9 +13,7 @@ class GQ_3DSHOOTING_API AACTargetActor : public AActor
 public:
 	bool TargetFlag = false;
 
-// テスト変数（イント）
-UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-	int TestNum;
+
 // テスト用変数
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
 	bool TestFlag = false;
