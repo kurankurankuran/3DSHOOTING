@@ -13,11 +13,15 @@ class GQ_3DSHOOTING_API AACTargetActor : public AActor
 public:
 	bool TargetFlag = false;
 
-	// ƒeƒXƒg—p•Ï”
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-		bool Test = false;
+// ãƒ†ã‚¹ãƒˆå¤‰æ•°ï¼ˆã‚¤ãƒ³ãƒˆï¼‰
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
+	int HitMID;
+
+// ãƒ†ã‚¹ãƒˆç”¨å¤‰æ•°
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
+	bool Test = false;
 	
-	// ƒqƒbƒgŒã‚Ìƒ}ƒeƒŠƒAƒ‹
+	// ãƒ’ãƒƒãƒˆå¾Œã®ãƒãƒ†ãƒªã‚¢ãƒ«
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
 		UMaterialInterface* HitMID;
 public:	
